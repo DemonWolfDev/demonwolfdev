@@ -6,6 +6,12 @@ name: MrDemonWolf
 #url: https://www.demonwolfdev.com
 url: http://localhost:3000  #Dev URL
 
+# Menu Items
+menu: 
+  - {name: Forums, url: 'forums'}
+  - {name: Discord, url: 'discord'}
+  - {name: Donate, url: 'donate'}
+
 #-------------------------------
 # SEO Section
 
@@ -20,4 +26,10 @@ seo:
 google-analytics-ua: UA-xxxx-xx
 
 #-------------------------------
-search: https://www.google.com/search
+# Ofter Section
+
+ofter: 
+  - {icon: fa-list-alt, name: 'Voice Chat & Private Messages', description: 'Dummy Text'}
+  - {icon: fa-comments-o, name: 'Discord and Forums Channels', description: 'Dummy Text'}
+
+#-------------------------------

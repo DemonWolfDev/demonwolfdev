@@ -5,9 +5,5 @@ permalink: pretty
 
 port: 3000
 
-include: ["_includes/", "lib/", "CNAME"]
+include: ["_includes/", "lib/",]
 exclude: ["gulpfile.js", "package.json", "README.md", "node_modules", "bower.json"]
-
-sass:
-  sass_dir: assets/css
-  style: :nested
