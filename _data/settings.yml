@@ -1,0 +1,23 @@
+#-------------------------------
+# General Site Settings
+
+title: DemonWolfDev
+name: MrDemonWolf
+#url: https://www.demonwolfdev.com
+url: http://localhost:3000  #Dev URL
+
+#-------------------------------
+# SEO Section
+
+seo:
+  twitter-creator: 'https://www.twitter.com/mrdemonwolf'
+  twitter-site: 'https://www.twitter.com/demonwolfdev'
+  type: 'website'
+
+#-------------------------------
+# Google Analytics Section
+
+google-analytics-ua: UA-xxxx-xx
+
+#-------------------------------
+search: https://www.google.com/search
