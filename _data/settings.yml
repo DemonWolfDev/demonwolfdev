@@ -25,11 +25,27 @@ seo:
 
 google-analytics-ua: UA-xxxx-xx
 
+# About Section
+
+about: 
+
 #-------------------------------
 # Ofter Section
 
 ofter: 
   - {icon: fa-list-alt, name: 'Voice Chat & Private Messages', description: 'Dummy Text'}
   - {icon: fa-comments-o, name: 'Discord and Forums Channels', description: 'Dummy Text'}
+
+#-------------------------------
+# Social Links/Icons
+
+social: 
+  - {icon: fa-list-alt, url: '#'}
+
+#-------------------------------
+# Legal Links
+
+legal: 
+  - {name: fa-list-alt, url: '#'}
 
 #-------------------------------

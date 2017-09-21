@@ -107,7 +107,7 @@
 
 @media (max-width: 768px) { .ofter-icons { font-size: 48px; } }
 
-.ofter-header { margin: 0 auto; }
+.col-ofter-description { padding-left: 0px; }
 
 .row-centered { text-align: center; }
 
