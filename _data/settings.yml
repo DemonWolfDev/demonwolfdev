@@ -14,6 +14,14 @@ menu:
   - {name: Donate, url: 'donate'}
 
 #-------------------------------
+# Redirect 
+redirect : 
+  - {name: Forums, url: 'forums'}
+  - {name: Discord, url: 'discord'}
+  - {name: Donate, url: 'donate'}
+
+#-------------------------------
+
 # SEO Section
 
 seo:

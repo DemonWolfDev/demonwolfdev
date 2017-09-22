@@ -6,7 +6,6 @@
 @import "_global/footer";
 @import "_component/jumotron";
 @import "_component/ofter";
-@import "_component/donorbox";
 
 html {
   position: relative;
@@ -27,17 +26,10 @@ footer {
       margin-bottom: 112px;
     }
 }
-
-// Center Row
-.row-centered {
-    text-align:center;
-}
 // Center Col
 .col-centered {
-    display:inline-block;
-    float:none;
-    text-align:left;
-    margin-right:-4px;
+    float: none;
+    margin: 0 auto;
 }
 // Center Text in Col
 .text-centered {
