@@ -6,6 +6,7 @@ name: MrDemonWolf
 #url: https://www.demonwolfdev.com
 url: http://localhost:3000  #Dev URL
 
+#-------------------------------
 # Menu Items
 menu: 
   - {name: Forums, url: 'forums'}
@@ -25,10 +26,13 @@ seo:
 
 google-analytics-ua: UA-xxxx-xx
 
+#-------------------------------
 # About Section
 
-about: 
-
+about:
+  header:
+  text:
+  
 #-------------------------------
 # Ofter Section
 
