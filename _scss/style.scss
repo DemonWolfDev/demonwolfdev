@@ -6,6 +6,7 @@
 @import "_global/footer";
 @import "_component/jumotron";
 @import "_component/ofter";
+@import "_component/about";
 
 html {
   position: relative;
@@ -37,4 +38,15 @@ footer {
 }
 .media-body-center {
     vertical-align: middle;
+}
+#jumbotron {
+}
+#ofter {
+  padding-top: 50px;
+}
+#about {
+  padding-top: 50px;
+}
+#cta {
+  padding-top: 50px;
 }

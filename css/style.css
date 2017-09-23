@@ -109,6 +109,10 @@
 
 .col-ofter-description { padding-left: 0px; }
 
+.about_header { font-size: 2em; text-align: center; }
+
+.about_text { font-size: 1.25em; }
+
 html { position: relative; min-height: 100%; }
 
 body { /* Margin bottom by footer height */ margin-bottom: 42px; }
@@ -122,3 +126,9 @@ footer { position: absolute; bottom: 0; width: 100%; background-color: #f5f5f5; 
 .text-centered { text-align: center; }
 
 .media-body-center { vertical-align: middle; }
+
+#ofter { padding-top: 50px; }
+
+#about { padding-top: 50px; }
+
+#cta { padding-top: 50px; }
