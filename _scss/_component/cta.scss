@@ -1,0 +1,38 @@
+/* cta.scss */
+.jumbotron_cta {
+    text-align: center;
+    color: white;
+    background: url(#{$site-url}/img/cta_bg.jpg) no-repeat bottom center;
+    background-size: cover;
+    height: 100%;
+}
+.cta-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+.cta-heading {
+    font-size: 2em;
+}
+.cta-text {
+	color: #ffffff;
+	font-family: $main-font;
+	font-size: 2em;
+	display: inline-block;
+}
+
+.btn.btn-join_us {
+    color: $button_background_effect_font;
+    background-color: $button_background_effect;
+    // border-bottom: 4px solid #ddd;
+    border-radius: 5px;
+    margin: 21px 0 0 0;
+    font-weight:700;
+}
+.btn-join_us.active.focus, .btn-join_us.active:focus, .btn-join_us.active:hover, .btn-join_us:active.focus, .btn-join_us:active:focus, .btn-join_us:active:hover , .btn-join_us:hover {
+    background: darken($button_background_effect, 6%);
+    color: button_background_effect_font;
+    // border-color: #ddd;
+  	transition: all 500ms;
+		-webkit-transition: all 500ms;
+		-moz-transition: all 500ms;
+}
