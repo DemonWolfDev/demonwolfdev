@@ -1,0 +1,99 @@
+// Import
+@import "_partials/mixins";
+@import "_partials/typography";
+@import "_partials/variables";
+@import "_global/nav";
+@import "_global/footer";
+@import "_component/jumotron";
+@import "_component/ofter";
+
+// Center Row
+.row-centered {
+    text-align:center;
+}
+// Center Col
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
+}
+// Center Text in Col
+.text-centered {
+    text-align: center;
+}
+.media-body-center {
+    vertical-align: middle;
+}// Import
+@import "_partials/mixins";
+@import "_partials/typography";
+@import "_partials/variables";
+@import "_global/nav";
+@import "_global/footer";
+@import "_component/hero";
+@import "_component/cta";
+@import "_component/ofter";
+@import "_component/about";
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 42px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+@media (max-width: 991px) {
+    body {
+      margin-bottom: 112px;
+    }
+}
+.jumbotron {
+    background-color: transparent !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+// Center Col
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+// Center Text in Col
+.text-centered {
+    text-align: center;
+}
+.media-body-center {
+    vertical-align: middle;
+}
+#hero {
+  padding-top: 64px !important;
+}
+#ofter {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#about {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#cta {
+  padding-bottom: 1px !important;
+}
+.hero {
+
+}
+.ofter {
+
+}
+.about {
+  background-color: $brand-color-alt-2;
+}
+.cta {
+
+}
