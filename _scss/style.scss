@@ -5,6 +5,7 @@
 @import "_global/nav";
 @import "_global/footer";
 @import "_component/hero";
+@import "_component/cta";
 @import "_component/ofter";
 @import "_component/about";
 
@@ -44,14 +45,29 @@ footer {
 .media-body-center {
     vertical-align: middle;
 }
-#jumbotron {
+#hero {
+  padding-top: 64px !important;
 }
 #ofter {
-  padding-top: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 #about {
-  padding-top: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 #cta {
-  padding-top: 50px;
+  padding-bottom: 1px !important;
+}
+.hero {
+
+}
+.ofter {
+
+}
+.about {
+  background-color: $brand-color-alt-2;
+}
+.cta {
+
 }

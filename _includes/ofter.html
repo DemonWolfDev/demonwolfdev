@@ -1,20 +1,22 @@
 <!-- Ofter Icons with infomation -->
-<div class="container" id="ofter">
-    <div class="row">
-        {% for item in site.data.settings.ofter %}
-        <div class="col-md-6">
-            <div class="media">
-                <div class="media-left">
-                    <i class="fa {{ item.icon }} ofter-icons" aria-hidden="true"></i>
-                </div>
-                <div class="media-body media-body-center">
-                    <div class="ofter-header">{{ item.name }}</div>
-                </div>
-                <div class="col-md-12 col-ofter-description">
-                    <div class="ofter-description">{{ item.description}}</div>
+<div class="ofter">
+    <div class="container" id="ofter">
+        <div class="row">
+            {% for item in site.data.settings.ofter %}
+            <div class="col-md-6">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="fa {{ item.icon }} ofter-icons" aria-hidden="true"></i>
+                    </div>
+                    <div class="media-body media-body-center">
+                        <div class="ofter-header">{{ item.name }}</div>
+                    </div>
+                    <div class="col-md-12 col-ofter-description">
+                        <div class="ofter-description">{{ item.description}}</div>
+                    </div>
                 </div>
             </div>
+            {% endfor %}
         </div>
-        {% endfor %}
     </div>
 </div>
