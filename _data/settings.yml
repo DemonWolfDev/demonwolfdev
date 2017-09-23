@@ -9,9 +9,9 @@ url: http://localhost:3000  #Dev URL
 #-------------------------------
 # Menu Items
 menu: 
-  - {name: Forums, url: 'forums'}
-  - {name: Discord, url: 'https://discordapp.com/invite/A9x3qEN'}
-  - {name: Donate, url: 'https://www.donorbox.org/demonwolfdev'}
+  - {title: Forums, url: 'forums'}
+  - {title: Discord, url: 'https://discordapp.com/invite/A9x3qEN'}
+  - {title: Donate, url: 'https://www.donorbox.org/demonwolfdev'}
 
 #-------------------------------
 

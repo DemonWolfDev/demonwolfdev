@@ -4,7 +4,7 @@
 @import "_partials/variables";
 @import "_global/nav";
 @import "_global/footer";
-@import "_component/jumotron";
+@import "_component/hero";
 @import "_component/ofter";
 @import "_component/about";
 
@@ -26,6 +26,11 @@ footer {
     body {
       margin-bottom: 112px;
     }
+}
+.jumbotron {
+    background-color: transparent !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 // Center Col
 .col-centered {

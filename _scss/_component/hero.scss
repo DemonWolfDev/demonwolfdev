@@ -1,16 +1,14 @@
-/* jumbotron.scss */
-.jumbotron {
-    // background-color: transparent !important;
-    background: #666;
-}
+/* hero.scss */
+
 .hero { 
+    padding-top: 70px !important;
     text-align: center;
     color: white;
-    // background: url(#{$site-url}/img/hero_bg.jpg) no-repeat bottom center;
-    // background-size: cover;
+    background: url(#{$site-url}/img/hero_bg.jpg) no-repeat bottom center;
+    background-size: cover;
     height: 100%;
-	// padding-top: 8%;
-    // padding-bottom: 8%;
+	padding-top: 8%;
+    padding-bottom: 8%;
 }
 .hero-body {
     display: table-cell;
