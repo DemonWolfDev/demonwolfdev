@@ -10,7 +10,7 @@
     display: table-cell;
     vertical-align: middle;
 }
-.cta-heading {
+.cta-header {
     font-size: 2em;
 }
 .cta-text {
@@ -27,6 +27,7 @@
     border-radius: 5px;
     margin: 21px 0 0 0;
     font-weight:700;
+    border-color: transparent;
 }
 .btn-join_us.active.focus, .btn-join_us.active:focus, .btn-join_us.active:hover, .btn-join_us:active.focus, .btn-join_us:active:focus, .btn-join_us:active:hover , .btn-join_us:hover {
     background: darken($button_background_effect, 6%);

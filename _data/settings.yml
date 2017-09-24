@@ -51,6 +51,7 @@ social:
 # Legal Links
 
 legal: 
-  - {name: fa-list-alt, url: '#'}
+  - {name: 'Terms of Service', url: '#'}
+  - {name: 'Privacy Statement', url: '#'}
 
 #-------------------------------

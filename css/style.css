@@ -91,11 +91,11 @@
 
 .hero-body { display: table-cell; vertical-align: middle; }
 
-.hero-heading { font-size: 2em; }
+.hero-header { font-size: 2em; }
 
-.hero-text { color: #ffffff; font-family: "Oswald", sans-serif; font-size: 2em; display: inline-block; }
+.hero-text { color: #ffffff; font-family: "Oswald", sans-serif; font-size: 1.25em; display: inline-block; }
 
-.btn.btn-learn_more { color: #fff; background-color: #352f9d; border-radius: 5px; margin: 21px 0 0 0; font-weight: 700; }
+.btn.btn-learn_more { color: #fff; background-color: #352f9d; border-radius: 5px; margin: 21px 0 0 0; font-weight: 700; border-color: transparent; }
 
 .btn-learn_more.active.focus, .btn-learn_more.active:focus, .btn-learn_more.active:hover, .btn-learn_more:active.focus, .btn-learn_more:active:focus, .btn-learn_more:active:hover, .btn-learn_more:hover { background: #2d2885; color: button_background_effect_font; transition: all 500ms; -webkit-transition: all 500ms; -moz-transition: all 500ms; }
 
@@ -104,11 +104,11 @@
 
 .cta-body { display: table-cell; vertical-align: middle; }
 
-.cta-heading { font-size: 2em; }
+.cta-header { font-size: 2em; }
 
 .cta-text { color: #ffffff; font-family: "Oswald", sans-serif; font-size: 2em; display: inline-block; }
 
-.btn.btn-join_us { color: #fff; background-color: #352f9d; border-radius: 5px; margin: 21px 0 0 0; font-weight: 700; }
+.btn.btn-join_us { color: #fff; background-color: #352f9d; border-radius: 5px; margin: 21px 0 0 0; font-weight: 700; border-color: transparent; }
 
 .btn-join_us.active.focus, .btn-join_us.active:focus, .btn-join_us.active:hover, .btn-join_us:active.focus, .btn-join_us:active:focus, .btn-join_us:active:hover, .btn-join_us:hover { background: #2d2885; color: button_background_effect_font; transition: all 500ms; -webkit-transition: all 500ms; -moz-transition: all 500ms; }
 
@@ -122,9 +122,9 @@
 
 .col-ofter-description { padding-left: 0px; }
 
-.about_header { font-size: 2em; text-align: center; }
+.about_header { color: #ffffff; font-size: 2em; text-align: center; }
 
-.about_text { font-size: 1.25em; }
+.about_text { color: #ffffff; font-size: 1.25em; }
 
 html { position: relative; min-height: 100%; }
 
