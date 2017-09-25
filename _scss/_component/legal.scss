@@ -1,0 +1,24 @@
+.privacy-statement-text {
+    font-size: 1em;
+    font-family: $second-font;
+    a {
+    color: #313131;
+    }
+    a:hover {
+    color: lighten(#313131, 25)
+    }
+}
+.terms-of-service-text {
+    font-size: 1em;
+    font-family: $second-font;
+    a {
+    color: #313131;
+    }
+    a:hover {
+    color: lighten(#313131, 25)
+    }
+}
+.last-modified {
+    font-size: .75em;
+    font-family: $second-font;
+}

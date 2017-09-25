@@ -50,10 +50,10 @@
 
 .navbar-default .navbar-link:hover { color: #352f9d; }
 
-@media (max-width: 767px) { .navbar-default .navbar-nav .open .nav-dropdown-menu > li > a { color: #060141; line-height: 16px; }
+@media (max-width: 767px) { .navbar-default .navbar-nav .open .nav-dropdown-menu > li > a { color: #060141; }
   .navbar-default .navbar-nav .open .nav-dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .nav-dropdown-menu > li > a:focus { color: #352f9d; }
   .navbar-default .navbar-nav .open .nav-dropdown-menu > .active > a, .navbar-default .navbar-nav .open .nav-dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .nav-dropdown-menu > .active > a:focus { color: #352f9d; background-color: #ffffff; }
-  .navbar-nav > li > a { padding-top: 16px; line-height: 35px; }
+  .navbar-nav > li > a { padding-top: 16px; }
   .navbar-logo > img { padding-top: 8px; padding-bottom: 8px; } }
 
 .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse { margin-bottom: 0.2em; }
@@ -87,13 +87,13 @@
 .footer-legal a:hover { color: #636363; text-decoration: none; }
 
 /* hero.scss */
-.jumbotron_hero { text-align: center; color: white; background: url(http://localhost:3000/img/hero_bg.jpg) no-repeat bottom center; background-size: cover; height: 100%; }
+.jumbotron_hero { padding-top: 64px !important; text-align: center; color: white; background: url(http://localhost:3000/img/hero_bg.jpg) no-repeat bottom center; background-size: cover; height: 100%; }
 
 .hero-body { display: table-cell; vertical-align: middle; }
 
 .hero-header { font-size: 2em; }
 
-.hero-text { color: #ffffff; font-family: "Oswald", sans-serif; font-size: 1.25em; display: inline-block; }
+.hero-text { color: #ffffff; font-family: "Oswald", sans-serif; font-size: 1.25em; }
 
 .btn.btn-learn_more { color: #fff; background-color: #352f9d; border-radius: 5px; margin: 21px 0 0 0; font-weight: 700; border-color: transparent; }
 
@@ -106,17 +106,17 @@
 
 .cta-header { font-size: 2em; }
 
-.cta-text { color: #ffffff; font-family: "Oswald", sans-serif; font-size: 2em; display: inline-block; }
+.cta-text { color: #ffffff; font-family: "Oswald", sans-serif; font-size: 2em; }
 
-.btn.btn-join_us { color: #fff; background-color: #352f9d; border-radius: 5px; margin: 21px 0 0 0; font-weight: 700; border-color: transparent; }
+.btn.btn-cta { color: #fff; background-color: #352f9d; border-radius: 5px; margin: 21px 0 0 0; font-weight: 700; border-color: transparent; }
 
-.btn-join_us.active.focus, .btn-join_us.active:focus, .btn-join_us.active:hover, .btn-join_us:active.focus, .btn-join_us:active:focus, .btn-join_us:active:hover, .btn-join_us:hover { background: #2d2885; color: button_background_effect_font; transition: all 500ms; -webkit-transition: all 500ms; -moz-transition: all 500ms; }
+.btn-cta.active.focus, .btn-cta.active:focus, .btn-cta.active:hover, .btn-cta:active.focus, .btn-cta:active:focus, .btn-cta:active:hover, .btn-cta:hover { background: #2d2885; color: button_background_effect_font; transition: all 500ms; -webkit-transition: all 500ms; -moz-transition: all 500ms; }
 
 .ofter-icons { font-size: 58px; }
 
 @media (max-width: 768px) { .ofter-icons { font-size: 48px; } }
 
-.ofter-header { font-size: 2.5em; }
+.ofter-header { font-size: 1.5em; }
 
 .ofter-description { font-size: 1em; }
 
@@ -125,6 +125,20 @@
 .about_header { color: #ffffff; font-size: 2em; text-align: center; }
 
 .about_text { color: #ffffff; font-size: 1.25em; }
+
+.privacy-statement-text { font-size: 1em; font-family: "Times New Roman", Times, serif; }
+
+.privacy-statement-text a { color: #313131; }
+
+.privacy-statement-text a:hover { color: #717171; }
+
+.terms-of-service-text { font-size: 1em; font-family: "Times New Roman", Times, serif; }
+
+.terms-of-service-text a { color: #313131; }
+
+.terms-of-service-text a:hover { color: #717171; }
+
+.last-modified { font-size: .75em; font-family: "Times New Roman", Times, serif; }
 
 html { position: relative; min-height: 100%; }
 
@@ -136,13 +150,21 @@ footer { position: absolute; bottom: 0; width: 100%; background-color: #f5f5f5; 
 
 .jumbotron { background-color: transparent !important; padding-top: 15px; padding-bottom: 15px; }
 
+.big-content-top { padding-top: 30px; }
+
+.big-content-bottom { padding-bottom: 30px; }
+
+.small-content-top { padding-top: 10px; }
+
+.small-content-bottom { padding-bottom: 10px; }
+
+.page-header_center { text-align: center; }
+
 .col-centered { float: none; margin: 0 auto; }
 
 .text-centered { text-align: center; }
 
 .media-body-center { vertical-align: middle; }
-
-#hero { padding-top: 64px !important; }
 
 #ofter { padding-top: 25px; padding-bottom: 25px; }
 

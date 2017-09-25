@@ -1,10 +1,12 @@
 /* hero.scss */
 .jumbotron_hero {
+    padding-top: 64px !important;
     text-align: center;
     color: white;
     background: url(#{$site-url}/img/hero_bg.jpg) no-repeat bottom center;
     background-size: cover;
     height: 100%;
+
 }
 .hero-body {
     display: table-cell;
@@ -17,7 +19,6 @@
 	color: #ffffff;
 	font-family: $main-font;
 	font-size: 1.25em;
-	display: inline-block;
 }
 
 .btn.btn-learn_more {

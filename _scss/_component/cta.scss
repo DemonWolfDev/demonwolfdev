@@ -17,10 +17,9 @@
 	color: #ffffff;
 	font-family: $main-font;
 	font-size: 2em;
-	display: inline-block;
 }
 
-.btn.btn-join_us {
+.btn.btn-cta {
     color: $button_background_effect_font;
     background-color: $button_background_effect;
     // border-bottom: 4px solid #ddd;
@@ -29,7 +28,7 @@
     font-weight:700;
     border-color: transparent;
 }
-.btn-join_us.active.focus, .btn-join_us.active:focus, .btn-join_us.active:hover, .btn-join_us:active.focus, .btn-join_us:active:focus, .btn-join_us:active:hover , .btn-join_us:hover {
+.btn-cta.active.focus, .btn-cta.active:focus, .btn-cta.active:hover, .btn-cta:active.focus, .btn-cta:active:focus, .btn-cta:active:hover , .btn-cta:hover {
     background: darken($button_background_effect, 6%);
     color: button_background_effect_font;
     // border-color: #ddd;
