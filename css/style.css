@@ -132,7 +132,11 @@
 
 /* hero.scss */
 <<<<<<< HEAD
+<<<<<<< HEAD
 .jumbotron_hero { text-align: center; color: white; background: url(http://localhost:3000/img/hero_bg.jpg) no-repeat bottom center; background-size: cover; height: 100%; }
+=======
+.jumbotron_hero { padding-top: 64px !important; text-align: center; color: white; background: url(http://localhost:3000/img/hero_bg.jpg) no-repeat bottom center; background-size: cover; height: 100%; }
+>>>>>>> devlop
 =======
 .jumbotron_hero { padding-top: 64px !important; text-align: center; color: white; background: url(http://localhost:3000/img/hero_bg.jpg) no-repeat bottom center; background-size: cover; height: 100%; }
 >>>>>>> devlop
@@ -149,6 +153,7 @@
 
 /* cta.scss */
 .jumbotron_cta { text-align: center; color: white; background: url(http://localhost:3000/img/cta_bg.jpg) no-repeat bottom center; background-size: cover; height: 100%; }
+<<<<<<< HEAD
 
 .cta-body { display: table-cell; vertical-align: middle; }
 
@@ -178,11 +183,24 @@
 
 .btn-cta.active.focus, .btn-cta.active:focus, .btn-cta.active:hover, .btn-cta:active.focus, .btn-cta:active:focus, .btn-cta:active:hover, .btn-cta:hover { background: #2d2885; color: button_background_effect_font; transition: all 500ms; -webkit-transition: all 500ms; -moz-transition: all 500ms; }
 >>>>>>> devlop
+=======
+
+.cta-body { display: table-cell; vertical-align: middle; }
+
+.cta-header { font-size: 2.75em; }
+
+.cta-text { color: #ffffff; font-family: "Oswald", sans-serif; font-size: 1.5em; }
+
+.btn.btn-cta { color: #fff; background-color: #352f9d; border-radius: 5px; margin: 21px 0 0 0; font-weight: 700; border-color: transparent; }
+
+.btn-cta.active.focus, .btn-cta.active:focus, .btn-cta.active:hover, .btn-cta:active.focus, .btn-cta:active:focus, .btn-cta:active:hover, .btn-cta:hover { background: #2d2885; color: button_background_effect_font; transition: all 500ms; -webkit-transition: all 500ms; -moz-transition: all 500ms; }
+>>>>>>> devlop
 
 .ofter-icons { font-size: 58px; }
 
 @media (max-width: 768px) { .ofter-icons { font-size: 48px; } }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .ofter-header { font-size: 2.5em; }
 
@@ -228,6 +246,36 @@ html { position: relative; min-height: 100%; }
 body { /* Margin bottom by footer height */ margin-bottom: 42px; }
 
 >>>>>>> devlop
+=======
+.ofter-header { font-size: 1.5em; }
+
+.ofter-description { font-size: 1.35em; }
+
+.col-ofter-description { padding-left: 0px; }
+
+.about_header { color: #ffffff; font-size: 2em; text-align: center; }
+
+.about_text { color: #ffffff; font-size: 1.35em; }
+
+.privacy-statement-text { font-size: 1em; font-family: "Times New Roman", Times, serif; }
+
+.privacy-statement-text a { color: #313131; }
+
+.privacy-statement-text a:hover { color: #717171; transition: all 500ms; -webkit-transition: all 500ms; -moz-transition: all 500ms; }
+
+.terms-of-service-text { font-size: 1em; font-family: "Times New Roman", Times, serif; }
+
+.terms-of-service-text a { color: #313131; }
+
+.terms-of-service-text a:hover { color: #717171; }
+
+.last-modified { font-size: .75em; font-family: "Times New Roman", Times, serif; }
+
+html { position: relative; min-height: 100%; }
+
+body { /* Margin bottom by footer height */ margin-bottom: 42px; }
+
+>>>>>>> devlop
 footer { position: absolute; bottom: 0; width: 100%; background-color: #f5f5f5; }
 
 @media (max-width: 991px) { body { margin-bottom: 112px; } }
@@ -235,7 +283,10 @@ footer { position: absolute; bottom: 0; width: 100%; background-color: #f5f5f5; 
 .jumbotron { background-color: transparent !important; padding-top: 15px; padding-bottom: 15px; }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> devlop
 .big-content-top { padding-top: 30px; }
 
 .big-content-bottom { padding-bottom: 30px; }
@@ -246,6 +297,9 @@ footer { position: absolute; bottom: 0; width: 100%; background-color: #f5f5f5; 
 
 .page-header_center { text-align: center; }
 
+<<<<<<< HEAD
+>>>>>>> devlop
+=======
 >>>>>>> devlop
 .col-centered { float: none; margin: 0 auto; }
 
@@ -254,11 +308,17 @@ footer { position: absolute; bottom: 0; width: 100%; background-color: #f5f5f5; 
 .media-body-center { vertical-align: middle; }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #hero { padding-top: 64px !important; }
 
 #ofter { padding-top: 25px; padding-bottom: 25px; }
 
 #about { padding-top: 25px; padding-bottom: 25px; }
+=======
+#ofter { padding-top: 30px; padding-bottom: 30px; }
+
+#about { padding-top: 30px; padding-bottom: 30px; }
+>>>>>>> devlop
 =======
 #ofter { padding-top: 30px; padding-bottom: 30px; }
 
