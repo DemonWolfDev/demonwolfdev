@@ -1,5 +1,7 @@
 /* cta.scss */
 .jumbotron_cta {
+    padding-top: 2em !important;
+    padding-bottom: 1.25em !important;
     text-align: center;
     color: white;
     background: url(#{$site-url}/img/cta_bg.jpg) no-repeat bottom center;
