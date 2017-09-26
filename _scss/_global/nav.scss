@@ -78,7 +78,6 @@
   .navbar-default .navbar-nav .open .nav-dropdown-menu {
     > li > a {
       color: $nav-colDefault;
-      line-height: 16px;
       &:hover, &:focus {
         color: $nav-colHighlight; }}
     > .active {
@@ -87,7 +86,6 @@
         background-color: $nav-bgHighlight; }}}
     .navbar-nav>li>a {
       padding-top: 16px;
-              line-height: 35px;
     }
     .navbar-logo > img {
       padding-top: 8px;

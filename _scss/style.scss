@@ -50,56 +50,6 @@ footer {
 }
 .page-header_center {
   text-align: center;
-<<<<<<< HEAD
-}
-// Center Col
-.col-centered {
-    float: none;
-    margin: 0 auto;
-}
-// Center Text in Col
-.text-centered {
-    text-align: center;
-}
-.media-body-center {
-    vertical-align: middle;
-<<<<<<< HEAD
-}// Import
-@import "_partials/mixins";
-@import "_partials/typography";
-@import "_partials/variables";
-@import "_global/nav";
-@import "_global/footer";
-@import "_component/hero";
-@import "_component/cta";
-@import "_component/ofter";
-@import "_component/about";
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 42px;
-}
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: #f5f5f5;
-}
-@media (max-width: 991px) {
-    body {
-      margin-bottom: 112px;
-    }
-}
-.jumbotron {
-    background-color: transparent !important;
-    padding-top: 15px;
-    padding-bottom: 15px;
-=======
->>>>>>> devlop
 }
 // Center Col
 .col-centered {
@@ -114,21 +64,6 @@ footer {
     vertical-align: middle;
 }
 #hero {
-<<<<<<< HEAD
-  padding-top: 64px !important;
-}
-#ofter {
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-#about {
-  padding-top: 25px;
-  padding-bottom: 25px;
-=======
-}
-#hero {
-=======
->>>>>>> devlop
 }
 #ofter {
   padding-top: 30px;
@@ -137,10 +72,6 @@ footer {
 #about {
   padding-top: 30px;
   padding-bottom: 30px;
-<<<<<<< HEAD
->>>>>>> devlop
-=======
->>>>>>> devlop
 }
 #cta {
   padding-bottom: 1px !important;
