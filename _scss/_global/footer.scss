@@ -22,18 +22,27 @@
   height: 40px;
   font-size: 24px;
   background-color: $social-icon;
+<<<<<<< HEAD
   color: #fff;
+=======
+>>>>>>> devlop
   text-align: center;
   margin-right: 10px;
   padding-top: 8px;
   border-radius: 50%;
+  &:hover {
+    background-color: $social-icon_hover;
+    transition: all 500ms;
+	  -webkit-transition: all 500ms;
+	  -moz-transition: all 500ms;
+  }
 }
 
 .footer-social li {
   float: right;
   display: flex;
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .footer-social {
       display: flex;
       justify-content: center;
@@ -43,6 +52,9 @@
     }
     .footer-copyright span {
       display: none;
+    }
+    .footer-legal {
+      text-align: center;
     }
 }
 .footer-legal {
