@@ -13,12 +13,12 @@
     vertical-align: middle;
 }
 .hero-header {
-    font-size: 2em;
+    font-size: 2.75em;
 }
 .hero-text {
 	color: #ffffff;
 	font-family: $main-font;
-	font-size: 1.25em;
+	font-size: 1.5em;
 }
 
 .btn.btn-learn_more {
@@ -35,6 +35,6 @@
     color: button_background_effect_font;
     // border-color: #ddd;
   	transition: all 500ms;
-		-webkit-transition: all 500ms;
-		-moz-transition: all 500ms;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
 }

@@ -5,7 +5,10 @@
     color: #313131;
     }
     a:hover {
-    color: lighten(#313131, 25)
+    color: lighten(#313131, 25);
+    transition: all 500ms;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
     }
 }
 .terms-of-service-text {
@@ -15,7 +18,7 @@
     color: #313131;
     }
     a:hover {
-    color: lighten(#313131, 25)
+    color: lighten(#313131, 25);
     }
 }
 .last-modified {

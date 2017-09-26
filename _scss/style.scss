@@ -3,6 +3,7 @@
 @import "_partials/typography";
 @import "_partials/variables";
 @import "_global/nav";
+@import "_global/social-icons";
 @import "_global/footer";
 @import "_component/hero";
 @import "_component/cta";
@@ -65,12 +66,12 @@ footer {
 #hero {
 }
 #ofter {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 #about {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 #cta {
   padding-bottom: 1px !important;

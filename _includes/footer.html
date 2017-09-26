@@ -3,8 +3,9 @@
     <!-- Legal Infos -->
     <div class="container">
         <div class="col-md-12 text-right">
-            <div class="footer-legal">{% for item in site.data.settings.legal %}
-                <a href="{{ site.data.settings.url }}/{{ item.url }}">{{ item.name }}</a>{% endfor %}
+            <div class="footer-legal">
+                <a href="{{ site.data.settings.url }}/terms-of-service/">Terms of Service</a> -
+                <a href="{{ site.data.settings.url }}/privacy-statement/">Privacy Statement</a>
             </div>
         </div>
     </div>
@@ -17,8 +18,9 @@
                     </script> <a href="/">{{ site.data.settings.title }}</a> <span>, All rights reserved</span>
                 </div>
             </div>
-            <div class="col-md-4 col-md-offset-2 col-sm-12 footer-social ">
-                <li><a href="https://www.twitch.tv/mrdemonwolf/"><i class="fa fa-twitch social-icon twitch-color" aria-hidden="true"></i></a></li>
+            <div class="col-md-4 col-md-offset-2 col-sm-12 footer-social ">{% for item in site.data.settings.social %}
+                <li><a href="{{ item.url }}"><i class="fa {{ item.icon }} social-icon {{ item.color }}" aria-hidden="true"></i></a></li>{%
+                endfor %}
             </div>
         </div>
     </div>

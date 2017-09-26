@@ -64,15 +64,12 @@ ofter:
 # Social Links/Icons
 
 social: 
-  - {icon: fa-list-alt, url: '#'}
+  - {icon: fa-twitch, color: 'twitch-color', url: '#'}
+  - {icon: fa-youtube-play, color: 'youtube-color', url: '#'}
+  - {icon: fa-google-plus, color: 'google_plus-color', url: '#'}
+  - {icon: fa-twitter, color: 'twitter-color', url: '#'}
 
 #-------------------------------
-# Legal Links
-
-legal: 
-  - {name: 'Terms of Service', url: 'privacy-statement'}
-  - {name: 'Privacy Statement', url: 'terms-of-service'}
- #-------------------------------
 # Modified Date
 
 modified-date: September 25, 2017
