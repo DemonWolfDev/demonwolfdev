@@ -5,15 +5,15 @@ title: DemonWolfDev
 name: MrDemonWolf
 description: Are you passionate about tech, computers, creativity, and gaming? Grow with our community towards your goals. Join us today!
 email: webmaster@demonwolfdev.com
-url: https://www.demonwolfdev.com
-#url: http://localhost:3000  #Dev URL
+#url: https://www.demonwolfdev.com
+url: http://localhost:3000  #Dev URL
 
 #-------------------------------
 # Menu Items
 menu: 
-  #- {title: Forums, url: 'forums'}
+  - {title: Forums, url: 'forums'}
   - {title: Discord, url: 'https://discordapp.com/invite/A9x3qEN'}
-  #- {title: Donate, url: 'https://www.donorbox.org/demonwolfdev'}
+  - {title: Donate, url: 'https://www.donorbox.org/demonwolfdev'}
 
 #-------------------------------
 

@@ -131,7 +131,7 @@
 .footer-legal a:hover { color: #636363; text-decoration: none; }
 
 /* hero.scss */
-.jumbotron_hero { padding-top: 7em !important; text-align: center; color: white; background: url(http://localhost:3000/img/hero_bg.jpg) no-repeat bottom center; background-size: cover; height: 100%; }
+.jumbotron_hero { padding-top: 194px !important; padding-bottom: 125px !important; text-align: center; color: white; background: url(http://localhost:3000/img/hero_bg.jpg) no-repeat bottom center; background-size: cover; height: 100%; }
 
 .hero-body { display: table-cell; vertical-align: middle; }
 
@@ -144,7 +144,7 @@
 .btn-learn_more.active.focus, .btn-learn_more.active:focus, .btn-learn_more.active:hover, .btn-learn_more:active.focus, .btn-learn_more:active:focus, .btn-learn_more:active:hover, .btn-learn_more:hover { background: #2d2885; color: button_background_effect_font; transition: all 500ms; -webkit-transition: all 500ms; -moz-transition: all 500ms; }
 
 /* cta.scss */
-.jumbotron_cta { padding-top: 2em !important; padding-bottom: 1.25em !important; text-align: center; color: white; background: url(http://localhost:3000/img/cta_bg.jpg) no-repeat bottom center; background-size: cover; height: 100%; }
+.jumbotron_cta { padding-top: 50px !important; padding-bottom: 50px !important; text-align: center; color: white; background: url(http://localhost:3000/img/cta_bg.jpg) no-repeat bottom center; background-size: cover; height: 100%; }
 
 .cta-body { display: table-cell; vertical-align: middle; }
 
@@ -210,9 +210,9 @@ footer { position: absolute; bottom: 0; width: 100%; background-color: #f5f5f5; 
 
 .media-body-center { vertical-align: middle; }
 
-#ofter { padding-top: 30px; padding-bottom: 30px; }
+#ofter { padding-top: 50px; padding-bottom: 50px; }
 
-#about { padding-top: 30px; padding-bottom: 30px; }
+#about { padding-top: 50px; padding-bottom: 50px; }
 
 #cta { padding-bottom: 1px !important; }
 
