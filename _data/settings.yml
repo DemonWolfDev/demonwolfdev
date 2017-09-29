@@ -5,13 +5,17 @@ title: DemonWolfDev
 name: MrDemonWolf
 description: Are you passionate about tech, computers, creativity, and gaming? Grow with our community towards your goals. Join us today!
 email: webmaster@demonwolfdev.com
+
+#-------------------------------
+# Website URL Section
+
 #url: https://www.demonwolfdev.com
-url: http://localhost:3000  #Dev URL
+url: http://localhost:3001  #Dev URL
 
 #-------------------------------
 # Menu Items
 menu: 
-  - {title: Forums, url: 'forums'}
+  - {title: Forums, url: 'https://www.demonwolfdev.com/forums'}
   - {title: Discord, url: 'https://discordapp.com/invite/A9x3qEN'}
   - {title: Donate, url: 'https://www.donorbox.org/demonwolfdev'}
 
@@ -62,7 +66,7 @@ ofter:
   - {icon: fa-comments-o, name: 'Discord Text & Voice Channels', description: ' We have a voice and private messages so you can chat with other members. You can also use it for in game voice chat, or just for having fun.  Even just hangout with members.'}
 
 #-------------------------------
-# Social Links/Icons
+# Social Icons and URls
 
 social: 
   - {icon: fa-twitch, color: 'twitch-color', url: '#'}

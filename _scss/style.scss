@@ -10,13 +10,12 @@
 @import "_component/ofter";
 @import "_component/about";
 @import "_component/legal";
-
+// Main
 html {
   position: relative;
   min-height: 100%;
 }
 body {
-  /* Margin bottom by footer height */
   margin-bottom: 42px;
 }
 footer {
@@ -30,6 +29,7 @@ footer {
       margin-bottom: 112px;
     }
 }
+// Jumbotron 
 .jumbotron {
     background-color: transparent !important;
     padding-top: 15px;
@@ -63,6 +63,7 @@ footer {
 .media-body-center {
     vertical-align: middle;
 }
+// Sections  
 #hero {
 }
 #ofter {
