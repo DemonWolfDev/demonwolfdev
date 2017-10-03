@@ -29,11 +29,6 @@ seo:
   type: 'website'
 
 #-------------------------------
-# Google Analytics Section
-
-google-analytics-ua: UA-xxxx-xx
-
-#-------------------------------
 # About Section
 
 about:
@@ -78,4 +73,5 @@ social:
 # Modified Date
 
 modified-date: September 25, 2017
+
 #-------------------------------

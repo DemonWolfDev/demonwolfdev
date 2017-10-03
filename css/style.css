@@ -180,7 +180,7 @@
 
 .terms-of-service-text a { color: #313131; }
 
-.terms-of-service-text a:hover { color: #717171; }
+.terms-of-service-text a:hover { color: #717171; transition: all 500ms; -webkit-transition: all 500ms; -moz-transition: all 500ms; }
 
 .last-modified { font-size: .75em; font-family: "Times New Roman", Times, serif; }
 
