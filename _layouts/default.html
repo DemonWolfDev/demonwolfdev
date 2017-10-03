@@ -1,3 +1,6 @@
+<!doctype html>
+<html lang="en">
+
 <head>
     <title>{{ page.title }} - {{ site.data.settings.title }}</title>
     <!-- Basic Meta -->
@@ -68,3 +71,73 @@
     <script async src='https://www.google-analytics.com/analytics.js'></script>
     <!-- End Google Analytics -->
 </head>
+<!-- CC Banner -->
+<script>
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#ffffff",
+                        "text": "#000000"
+                    },
+                    "button": {
+                        "background": "#00328d"
+                    }
+                },
+                "position": "bottom-right",
+                "content": {
+                    "href": "https://www.demonwolfdev.com/privacy-statement"
+                }
+            })
+        });
+
+</script>
+
+<body>
+    {{ content }}
+</body>
+<!-- Footer -->
+<footer>
+    <!-- Legal Infos -->
+    <div class="container">
+        <div class="col-md-12 text-right">
+            <div class="footer-legal">
+                <a href="{{ site.data.settings.url }}/legal/terms-of-service/">Terms of Service</a> -
+                <a href="{{ site.data.settings.url }}/legal/privacy-statement/">Privacy Statement</a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <div class="col-md-6 col-sm-12">
+                <div class="footer-copyright"> Copyright ©
+                    <script>
+                        document.write("" + new Date().getFullYear());
+                    </script> <a href="/">{{ site.data.settings.title }}</a> <span>, All rights reserved</span>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-2 col-sm-12 footer-social ">{% for item in site.data.settings.social %}
+                <li><a href="{{ item.url }}"><i class="fa {{ item.icon }} social-icon {{ item.color }}" aria-hidden="true"></i></a></li>{%
+                endfor %}
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Loadidng JS in footer -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="{{ site.data.settings.url }}/lib/jquery/dist/jquery.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" -->
+<!-- crossorigin="anonymous"></script> -->
+<!-- Bootstrap Javascript -->
+<script src="{{ site.data.settings.url }}/lib/bootstrap/dist/js/bootstrap.js"></script>
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" -->
+<!-- crossorigin="anonymous"></script> -->
+<!-- EU Cookie notice -->
+<!-- <link href="{{ site.data.settings.url }}/lib/cookieconsent/dist/.cookieconsent.css" rel="stylesheet"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.4/cookieconsent.min.css" integrity="sha256-RWqxpxUH7ZGrrhTJ0I+v+zc6e8cRpm5ENBt7i3u3KrQ="
+    crossorigin="anonymous" />
+<!-- <script src="{{ site.data.settings.url }}/lib/cookieconsent/dist/js/cookieconsent..js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.4/cookieconsent.min.js" integrity="sha256-r0xmg4FKpSfK9TvePQIeaq/gCDO0Xy3q0EPIfteGRnQ="
+    crossorigin="anonymous"></script>
+
+</html>
