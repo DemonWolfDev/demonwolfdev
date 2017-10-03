@@ -184,14 +184,6 @@
 
 .last-modified { font-size: .75em; font-family: "Times New Roman", Times, serif; }
 
-html { position: relative; min-height: 100%; }
-
-body { margin-bottom: 42px; }
-
-footer { position: absolute; bottom: 0; width: 100%; background-color: #f5f5f5; }
-
-@media (max-width: 991px) { body { margin-bottom: 112px; } }
-
 .jumbotron { background-color: transparent !important; padding-top: 15px; padding-bottom: 15px; }
 
 .big-content-top { padding-top: 30px; }
@@ -201,8 +193,6 @@ footer { position: absolute; bottom: 0; width: 100%; background-color: #f5f5f5; 
 .small-content-top { padding-top: 10px; }
 
 .small-content-bottom { padding-bottom: 10px; }
-
-.page-header_center { text-align: center; }
 
 .col-centered { float: none; margin: 0 auto; }
 
