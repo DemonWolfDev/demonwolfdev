@@ -131,11 +131,7 @@
 .footer-legal a:hover { color: #636363; text-decoration: none; }
 
 /* hero.scss */
-<<<<<<< HEAD
-.jumbotron_hero { padding-top: 7em !important; text-align: center; color: white; background: url(https://www.demonwolfdev.com//img/hero_bg.jpg) no-repeat bottom center; background-size: cover; height: 100%; }
-=======
 .jumbotron_hero { padding-top: 194px !important; padding-bottom: 125px !important; text-align: center; color: white; background: url(http://localhost:3001/img/hero_bg.jpg) no-repeat bottom center; background-size: cover; height: 100%; }
->>>>>>> devlop
 
 .hero-body { display: table-cell; vertical-align: middle; }
 
@@ -148,11 +144,7 @@
 .btn-learn_more.active.focus, .btn-learn_more.active:focus, .btn-learn_more.active:hover, .btn-learn_more:active.focus, .btn-learn_more:active:focus, .btn-learn_more:active:hover, .btn-learn_more:hover { background: #2d2885; color: button_background_effect_font; transition: all 500ms; -webkit-transition: all 500ms; -moz-transition: all 500ms; }
 
 /* cta.scss */
-<<<<<<< HEAD
-.jumbotron_cta { padding-top: 2em !important; padding-bottom: 1.25em !important; text-align: center; color: white; background: url(https://www.demonwolfdev.com//img/cta_bg.jpg) no-repeat bottom center; background-size: cover; height: 100%; }
-=======
 .jumbotron_cta { padding-top: 50px !important; padding-bottom: 50px !important; text-align: center; color: white; background: url(http://localhost:3001/img/cta_bg.jpg) no-repeat bottom center; background-size: cover; height: 100%; }
->>>>>>> devlop
 
 .cta-body { display: table-cell; vertical-align: middle; }
 
