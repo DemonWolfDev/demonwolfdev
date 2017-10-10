@@ -15,7 +15,7 @@ url: https://www.demonwolfdev.com
 #-------------------------------
 # Menu Items
 menu:
-  # - {title: Forums, url: 'https://www.demonwolfdev.com/forums'}
+  - {title: Forums, url: 'https://www.demonwolfdev.com/forums'}
   - {title: Discord, url: 'https://discordapp.com/invite/A9x3qEN'}
   - {title: Donate, url: 'https://www.donorbox.org/demonwolfdev'}
 
