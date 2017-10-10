@@ -144,7 +144,7 @@
 .btn-learn_more.active.focus, .btn-learn_more.active:focus, .btn-learn_more.active:hover, .btn-learn_more:active.focus, .btn-learn_more:active:focus, .btn-learn_more:active:hover, .btn-learn_more:hover { background: #2d2885; color: button_background_effect_font; transition: all 500ms; -webkit-transition: all 500ms; -moz-transition: all 500ms; }
 
 /* cta.scss */
-.jumbotron_cta { padding-top: 50px !important; padding-bottom: 50px !important; text-align: center; color: white; background: url(https://www.demonwolfdev.com//img/cta_bg.jpg) no-repeat bottom center; background-size: cover; height: 100%; }
+.jumbotron_cta { padding-top: 50px !important; padding-bottom: 50px !important; text-align: center; color: white; background: url(https://www.demonwolfdev.com//img/cta_bg.jpg) no-repeat bottom center; background-size: cover; height: 100%; margin-bottom: 0px; }
 
 .cta-body { display: table-cell; vertical-align: middle; }
 
