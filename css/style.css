@@ -131,7 +131,7 @@
 .footer-legal a:hover { color: #636363; text-decoration: none; }
 
 /* hero.scss */
-.jumbotron_hero { padding-top: 194px !important; padding-bottom: 125px !important; text-align: center; color: white; background: url(http://localhost:3001/img/hero_bg.jpg) no-repeat bottom center; background-size: cover; height: 100%; }
+.jumbotron_hero { padding-top: 194px !important; padding-bottom: 125px !important; text-align: center; color: white; background: url(https://www.demonwolfdev.com//img/hero_bg.jpg) no-repeat bottom center; background-size: cover; height: 100%; }
 
 .hero-body { display: table-cell; vertical-align: middle; }
 
@@ -144,7 +144,7 @@
 .btn-learn_more.active.focus, .btn-learn_more.active:focus, .btn-learn_more.active:hover, .btn-learn_more:active.focus, .btn-learn_more:active:focus, .btn-learn_more:active:hover, .btn-learn_more:hover { background: #2d2885; color: button_background_effect_font; transition: all 500ms; -webkit-transition: all 500ms; -moz-transition: all 500ms; }
 
 /* cta.scss */
-.jumbotron_cta { padding-top: 50px !important; padding-bottom: 50px !important; text-align: center; color: white; background: url(http://localhost:3001/img/cta_bg.jpg) no-repeat bottom center; background-size: cover; height: 100%; }
+.jumbotron_cta { padding-top: 50px !important; padding-bottom: 50px !important; text-align: center; color: white; background: url(https://www.demonwolfdev.com//img/cta_bg.jpg) no-repeat bottom center; background-size: cover; height: 100%; }
 
 .cta-body { display: table-cell; vertical-align: middle; }
 
@@ -170,19 +170,32 @@
 
 .about_text { color: #ffffff; font-size: 1.35em; }
 
-.privacy-statement-text { font-size: 1em; font-family: "Times New Roman", Times, serif; }
+/* legal.scss */
+.legal-header h1 { color: #00328d; }
+
+.privacy-statement-text { font-size: 1.25em; font-family: "Times New Roman", Times, serif; }
 
 .privacy-statement-text a { color: #313131; }
 
 .privacy-statement-text a:hover { color: #717171; transition: all 500ms; -webkit-transition: all 500ms; -moz-transition: all 500ms; }
 
-.terms-of-service-text { font-size: 1em; font-family: "Times New Roman", Times, serif; }
+.terms-of-service-text { font-size: 1.25em; font-family: "Times New Roman", Times, serif; }
 
 .terms-of-service-text a { color: #313131; }
 
 .terms-of-service-text a:hover { color: #717171; transition: all 500ms; -webkit-transition: all 500ms; -moz-transition: all 500ms; }
 
-.last-modified { font-size: .75em; font-family: "Times New Roman", Times, serif; }
+.last-modified { font-size: 1em; font-family: "Times New Roman", Times, serif; }
+
+html, body { height: 100%; /* The html and body elements cannot have any padding or margin. */ }
+
+/* Wrapper for page content to push down footer */
+#wrap { min-height: 100%; height: auto; /* Negative indent footer by its height */ margin: 0 auto -60px; /* Pad bottom by footer height */ padding: 0 0 60px; }
+
+/* Set the fixed height of the footer here */
+#footer { height: 100px; }
+
+@media (max-width: 768px) { #footer { height: 140px; } }
 
 .jumbotron { background-color: transparent !important; padding-top: 15px; padding-bottom: 15px; }
 

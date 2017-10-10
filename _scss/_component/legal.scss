@@ -1,5 +1,9 @@
+/* legal.scss */
+.legal-header h1 {
+  color: $brand-color;
+}
 .privacy-statement-text {
-    font-size: 1em;
+    font-size: 1.25em;
     font-family: $second-font;
     a {
     color: #313131;
@@ -12,7 +16,7 @@
     }
 }
 .terms-of-service-text {
-    font-size: 1em;
+    font-size: 1.25em;
     font-family: $second-font;
     a {
     color: #313131;
@@ -25,6 +29,6 @@
     }
 }
 .last-modified {
-    font-size: .75em;
+    font-size: 1em;
     font-family: $second-font;
 }
