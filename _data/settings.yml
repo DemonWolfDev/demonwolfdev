@@ -1,16 +1,8 @@
 #-------------------------------
 # General Site Settings
 
-title: DemonWolfDev
 name: MrDemonWolf
-description: Are you passionate about tech, computers, creativity, and gaming? Grow with our community towards your goals. Join us today!
-email: webmaster@demonwolfdev.com
-
-#-------------------------------
-# Website URL Section
-
-url: https://www.demonwolfdev.com
-# url: http://localhost:3000  #Dev URL
+google-analytics: UA-xxxx-1
 
 #-------------------------------
 # Menu Items

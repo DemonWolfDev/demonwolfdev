@@ -1,28 +1,28 @@
-/* hero.scss */
-.jumbotron_hero {
-    padding-top: 194px !important;
-    padding-bottom: 125px !important;
+/* cta.scss */
+.jumbotron_cta {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
     text-align: center;
     color: white;
-    background: url(#{$site-url}/img/hero_bg.jpg) no-repeat bottom center;
+    background: url(#{$site-url}/assets/images/cta_bg.jpg) no-repeat bottom center;
     background-size: cover;
     height: 100%;
-
+    margin-bottom: 0px;
 }
-.hero-body {
+.cta-body {
     display: table-cell;
     vertical-align: middle;
 }
-.hero-header {
+.cta-header {
     font-size: 2.75em;
 }
-.hero-text {
+.cta-text {
 	color: #ffffff;
 	font-family: $main-font;
 	font-size: 1.5em;
 }
 
-.btn.btn-learn_more {
+.btn.btn-cta {
     color: $button_background_effect_font;
     background-color: $button_background_effect;
     // border-bottom: 4px solid #ddd;
@@ -31,7 +31,7 @@
     font-weight:700;
     border-color: transparent;
 }
-.btn-learn_more.active.focus, .btn-learn_more.active:focus, .btn-learn_more.active:hover, .btn-learn_more:active.focus, .btn-learn_more:active:focus, .btn-learn_more:active:hover , .btn-learn_more:hover {
+.btn-cta.active.focus, .btn-cta.active:focus, .btn-cta.active:hover, .btn-cta:active.focus, .btn-cta:active:focus, .btn-cta:active:hover , .btn-cta:hover {
     background: darken($button_background_effect, 6%);
     color: button_background_effect_font;
     // border-color: #ddd;

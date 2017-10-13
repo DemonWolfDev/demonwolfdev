@@ -3,27 +3,27 @@
 ``` html
   <!-- Frameworks -->
   <!-- Font Awsome-->
-  <link href="{{ site.data.settings.url }}/lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+  <link href="{{ site.url}}/lib/font-awesome/css/font-awesome.css" rel="stylesheet">
   <!--Bootstrap -->
-  <link href="{{ site.data.settings.url }}/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+  <link href="{{ site.url}}/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
   <!-- EU Cookie notice -->
-  <link href="{{ site.data.settings.url }}/lib/cookieconsent/dist/cookieconsent.css" rel="stylesheet">
-  <script src="{{ site.data.settings.url }}/lib/cookieconsent/dist/js/cookieconsent..js"></script>
+  <link href="{{ site.url}}/lib/cookieconsent/dist/cookieconsent.css" rel="stylesheet">
+  <script src="{{ site.url}}/lib/cookieconsent/dist/js/cookieconsent..js"></script>
   <!-- Custom -->
-  <link rel="stylesheet" href="{{ site.data.settings.url }}/css/style.css">
+  <link rel="stylesheet" href="{{ site.url}}/css/style.css">
 ```
 ### Footer
 ``` html
   <!-- Loadidng JS in footer -->
   <!-- jQuery -->
-  <script src="{{ site.data.settings.url }}/lib/jquery/dist/jquery.js"></script>
+  <script src="{{ site.url}}/lib/jquery/dist/jquery.js"></script>
   <!-- Bootstrap Javascript -->
-  <script src="{{ site.data.settings.url }}/lib/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="{{ site.url}}/lib/bootstrap/dist/js/bootstrap.js"></script>
   <!-- EU Cookie notice -->
-  <link href="{{ site.data.settings.url }}/lib/cookieconsent/dist/cookieconsent.min.css" rel="stylesheet">
-  <script src="{{ site.data.settings.url }}/lib/cookieconsent/dist/js/cookieconsent.min.js"></script>
+  <link href="{{ site.url}}/lib/cookieconsent/dist/cookieconsent.min.css" rel="stylesheet">
+  <script src="{{ site.url}}/lib/cookieconsent/dist/js/cookieconsent.min.js"></script>
   <!-- Custom -->
-  <script src="{{ site.data.settings.url }}/js/script.js"></script>
+  <script src="{{ site.url}}/js/script.js"></script>
 ```
 ## Prod
 ### Header
@@ -41,7 +41,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.4/cookieconsent.min.js" integrity="sha256-r0xmg4FKpSfK9TvePQIeaq/gCDO0Xy3q0EPIfteGRnQ="
     crossorigin="anonymous"></script>
   <!-- Custom -->
-  <link rel="stylesheet" href="{{ site.data.settings.url }}/css/style.css">
+  <link rel="stylesheet" href="{{ site.url}}/css/style.css">
 ```
 ### Footer
 ``` html
@@ -56,5 +56,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.4/cookieconsent.min.js" integrity="sha256-r0xmg4FKpSfK9TvePQIeaq/gCDO0Xy3q0EPIfteGRnQ="
     crossorigin="anonymous"></script>
   <!-- Custom -->
-  <script src="{{ site.data.settings.url }}/js/script.js"></script>
+  <script src="{{ site.url}}/js/script.js"></script>
 ```
