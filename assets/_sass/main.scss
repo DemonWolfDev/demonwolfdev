@@ -1,95 +1,39 @@
-// Import
-@import "_partials/variables";
-@import "_partials/mixins";
-@import "_partials/typography";
-@import "_global/nav";
-@import "_global/social-icons";
-@import "_global/footer";
-@import "_component/hero";
-@import "_component/cta";
-@import "_component/ofter";
-@import "_component/about";
-@import "_component/legal";
+@charset 'UTF-8';
 
-html,
-body {
-  height: 100%;
-  /* The html and body elements cannot have any padding or margin. */
-}
+// 1. Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
 
-/* Wrapper for page content to push down footer */
-#wrap {
-  min-height: 100%;
-  height: auto;
-  /* Negative indent footer by its height */
-  margin: 0 auto -60px;
-  /* Pad bottom by footer height */
-  padding: 0 0 60px;
-}
+// 2. Vender
+//
 
-/* Set the fixed height of the footer here */
-#footer {
-  height: 100px;
-}
-@media (max-width: 768px) {
-  #footer {
-    height: 140px;
-  }
-}
-// Jumbotron
-.jumbotron {
-    background-color: transparent !important;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-// Custom spaceings
-.big-content-top {
-	padding-top: 30px;
-}
-.big-content-bottom {
-	padding-bottom: 30px;
-}
-.small-content-top {
-	padding-top: 10px;
-}
-.small-content-bottom {
-	padding-bottom: 10px;
-}
-// Center Col
-.col-centered {
-    float: none;
-    margin: 0 auto;
-}
-// Center Text in Col
-.text-centered {
-    text-align: center;
-}
-.media-body-center {
-    vertical-align: middle;
-}
-// Sections
-#hero {
-}
-#ofter {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-#about {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-#cta {
-  padding-bottom: 1px !important;
-}
-.hero {
+// 3. Base stuff
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography',
+  'base/helpers';
 
-}
-.ofter {
+// 4. Layout-related sections
+@import
+  'layout/header',
+  'layout/footer',
+  'layout/social_icons';
 
-}
-.about {
-  background-color: $brand-color-alt-2;
-}
-.cta {
+// 5. Components
+@import
+  'components/about',
+  'components/cta',
+  'components/hero',
+  'components/ofter';
 
-}
+
+// 6. Page-specific styles
+@import
+  'pages/legal';
+
+// 7. Themes
+@import
+  'themes/default';

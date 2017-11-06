@@ -1,0 +1,38 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the cta component.
+// -----------------------------------------------------------------------------
+.cta {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    text-align: center;
+    color: white;
+    background: url(../images/cta_bg.jpg) no-repeat bottom center;
+    background-size: cover;
+    height: 100%;
+    margin-bottom: 0px;
+
+    .header {
+        font-size: 2.75em;
+    }
+
+    .text {
+        color: #ffffff;
+        font-family: $main-font;
+        font-size: 1.5em;
+    }
+}
+
+.btn.btn-cta {
+    color: $button_background_effect_font;
+    background-color: $button_background_effect;;
+    border-radius: 5px;
+    margin: 21px 0 0 0;
+    font-weight: 700;
+    border-color: transparent;
+}
+
+.btn-cta.active.focus, .btn-cta.active:focus, .btn-cta.active:hover, .btn-cta:active.focus, .btn-cta:active:focus, .btn-cta:active:hover, .btn-cta:hover {
+    background: darken($button_background_effect, 6%);
+    color: button_background_effect_font;
+    transition: all 500ms;
+}

@@ -1,13 +1,9 @@
 #-------------------------------
 # General Site Settings
-
-name: MrDemonWolf
-google-analytics: UA-xxxx-1
-
 #-------------------------------
-# Menu Items
+# Menu Section
 menu:
-  # - {title: Forums, url: 'https://www.demonwolfdev.com/forums'}
+  - {title: Forums, url: 'https://www.demonwolfdev.com/forums'}
   - {title: Discord, url: 'https://discordapp.com/invite/A9x3qEN'}
   - {title: Donate, url: 'https://www.donorbox.org/demonwolfdev'}
 
@@ -19,6 +15,7 @@ seo:
   twitter-creator: 'https://www.twitter.com/mrdemonwolf'
   twitter-site: 'https://www.twitter.com/demonwolfdev'
   type: 'website'
+  google-analytics: UA-xxxx-1
 
 #-------------------------------
 # About Section
@@ -31,26 +28,29 @@ about:
 # Hero Section
 
 hero:
-    header: 'DemonWolfDev Community'
-    text: "Are you passionate about tech, computers, creativity, and gaming? Grow with our community towards your goals. Join us today!"
-    buttom-text: Join Us!
-    button-link: '#learn'
+  header: 'DemonWolfDev Community'
+  text: "Are you passionate about tech, computers, creativity, and gaming? Grow with our community towards your goals. Join us today!"
+hero-button:
+  title: Join Us!
+  url: '#learn'
+
 #-------------------------------
 # CTA Section
 
 cta:
   header: Join Our Community Today!
   text: Its free!
-  button-text: Join Us!
-  #button-url: '#join'
-  button-url: 'https://discordapp.com/invite/A9x3qEN'
+cta-button:
+  title: Join Us!
+  #url: '#join'
+  url: 'https://discordapp.com/invite/A9x3qEN'
 #-------------------------------
 # Ofter Section
 
 ofter:
   - {icon: fa-list-alt, name: 'Voice Chat & Private Messages', description: 'Our Discord has members from all ages, gaming backgrounds, people who use different gaming systems, and much more.'}
   # {icon: fa-comments-o, name: 'Discord Channels & Forums Threads', description: ' We have a voice and private messages so you can chat with other members. You can also use it for in game voice chat, or just for having fun.  Even just hangout with members.'}
-  - {icon: fa-comments-o, name: 'Discord Text & Voice Channels', description: ' We have a voice and private messages so you can chat with other members. You can also use it for in game voice chat, or just for having fun.  Even just hangout with members.'}
+  - {icon: fa-comments-o, name: 'Community forum threads' , description: ' We have a voice and private messages so you can chat with other members. You can also use it for in game voice chat, or just for having fun.  Even just hangout with members.'}
 
 #-------------------------------
 # Social Icons and URls

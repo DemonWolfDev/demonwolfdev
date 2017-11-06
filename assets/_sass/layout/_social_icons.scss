@@ -1,10 +1,11 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the social icons of the site/application.
+// -----------------------------------------------------------------------------
 .twitter-color {
 	color: $twitter-color;
 	&:hover {
 		color: darken($twitter_color, 10%);
 		transition: all 3s;
-		-webkit-transition: all 3s;
-		-moz-transition: all 3s;
 	}
 }
 .youtube-color {
@@ -12,8 +13,6 @@
 	&:hover {
 		color: darken($google_plus-color, 10%);
 		transition: all 3s;
-		-webkit-transition: all 3s;
-		-moz-transition: all 3s;
 	}
 }
 .google_plus-color {
@@ -21,8 +20,6 @@
 	&:hover {
 		color: darken($google_plus-color, 10%);
 		transition: all 3s;
-		-webkit-transition: all 3s;
-		-moz-transition: all 3s;
 	}
 }
 .twitch-color {
@@ -30,8 +27,6 @@
 	&:hover {
 		color: darken($twitch-color, 10%);
 		transition: all 3s;
-		-webkit-transition: all 3s;
-		-moz-transition: all 3s;
 	}
 }
 .facebook-color {
@@ -39,8 +34,6 @@
 	&:hover {
 		color: darken($facebook-color, 10%);
 		transition: all 3s;
-		-webkit-transition: all 3s;
-		-moz-transition: all 3s;
 	}
 }
 /* Background */

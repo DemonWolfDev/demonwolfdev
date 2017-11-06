@@ -1,4 +1,6 @@
-/* legal.scss */
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the legal page.
+// -----------------------------------------------------------------------------
 .legal-header h1 {
   color: $brand-color;
 }
@@ -11,8 +13,6 @@
     a:hover {
     color: lighten(#313131, 25);
     transition: all 500ms;
-	-webkit-transition: all 500ms;
-	-moz-transition: all 500ms;
     }
 }
 .terms-of-service-text {
@@ -24,8 +24,6 @@
     a:hover {
     color: lighten(#313131, 25);
     transition: all 500ms;
-	-webkit-transition: all 500ms;
-	-moz-transition: all 500ms;
     }
 }
 .last-modified {
