@@ -1,15 +1,17 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the about component.
 // -----------------------------------------------------------------------------
-.about-col {
-  background-color: $brand-color-alt-2;
-}
-.about_header {
-    color: #ffffff;
-    font-size: 2em;
-    text-align: center;
-}
-.about_text {
-    color: #ffffff;
-    font-size: 1.35em;
+.about {
+    background-color: $brand-color-alt-2;
+
+    .header {
+        color: #ffffff;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .text {
+        color: #ffffff;
+        font-size: 1.35em;
+    }
 }

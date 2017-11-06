@@ -1,16 +1,18 @@
-<div class="about-col">
-    <div class="container" id="about">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="about_header">
-                    <p>{{ site.data.settings.about.header }}</p>
-                </div>
-                <div class="col-md-12">
-                    <div class="about_text">
-                        <p>{{ site.data.settings.about.text }}</p>
-                    </div>
-                </div>
-            </div>
+<div class="about">
+  <div class="container" id="about">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="header">
+          <p>{{ site.data.settings.about.header }}</p>
         </div>
+        <div class="col-md-12">
+          <div class="text">
+            {% for section in site.data.settings.about.text %}
+            <p>{{ section | textilize }}</p>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </div>

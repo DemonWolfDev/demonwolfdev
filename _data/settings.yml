@@ -3,7 +3,7 @@
 #-------------------------------
 # Menu Section
 menu:
-  - {title: Forums, url: 'https://www.demonwolfdev.com/forums'}
+  # - {title: Forums, url: 'https://www.demonwolfdev.com/forums'}
   - {title: Discord, url: 'https://discordapp.com/invite/A9x3qEN'}
   - {title: Donate, url: 'https://www.donorbox.org/demonwolfdev'}
 
@@ -22,7 +22,10 @@ seo:
 
 about:
   header: About Us
-  text: "DemonWolfDev is an open community that provides friendly, socially rewarding gaming and creative experiences. Our creative nature stimulates a friendly environment where sharing and collaborating on projects is welcomed whilst maintaining a place for people that prefer to work solo and are simply seeking advice.  It's hard to have a fun and rewarding online experience when gaming online. Trolls and jerks are everywhere. DemonWolfDev offers an antidote. You’ll find our community active and friendly. Our team of volunteer admins actively keeps the jerks, trolls, and cheaters out.  Best of all, DemonWolfDev is open to everyone — there are no applications, prerequisites, or approval processes. You’re a member of the DemonWolfDev community from the moment you start creating or gaming with us. Are you passionate about tech, computers, creativity, and gaming? Grow with our community towards your goals."
+  text:
+    - "DemonWolfDev is an open community that provides friendly, socially rewarding gaming and creative experiences. Our creative nature stimulates a friendly environment where sharing and collaborating on projects is welcomed whilst maintaining a place for people that prefer to work solo and are simply seeking advice."
+    - "It's hard to have a fun and rewarding online experience when gaming online. Trolls and jerks are everywhere. DemonWolfDev offers an antidote. You’ll find our community active and friendly. Our team of volunteer admins actively keeps the jerks, trolls, and cheaters out."
+    - "Best of all, DemonWolfDev is open to everyone — there are no applications, prerequisites, or approval processes. You’re a member of the DemonWolfDev community from the moment you start creating or gaming with us. Are you passionate about tech, computers, creativity, and gaming? Grow with our community towards your goals."
 
 #-------------------------------
 # Hero Section
@@ -56,10 +59,15 @@ ofter:
 # Social Icons and URls
 
 social:
-  - {icon: fa-twitch, color: 'twitch-color', url: '#'}
-  - {icon: fa-youtube-play, color: 'youtube-color', url: '#'}
-  - {icon: fa-google-plus, color: 'google_plus-color', url: '#'}
-  - {icon: fa-twitter, color: 'twitter-color', url: '#'}
+  - {icon: fa-twitch, color: 'twitch-color', url: 'https://www.twitch.tv/demonwolfdev'}
+  - {icon: fa-youtube-play, color: 'youtube-color', url: 'https://www.yotube.com/DemonWolfDevOfficial'}
+  - {icon: fa-google-plus, color: 'google_plus-color', url: 'http://plus.google.com/+DemonWolfDevOfficial'}
+  - {icon: fa-twitter, color: 'twitter-color', url: 'https://www.twitter.com/demonwolfdev'}
+social-url:
+  twitch: https://www.twitch.tv/demonwolfdev
+  youtube: https://www.youtube.com/demonwolfdev
+  google-plus: http://plus.google.com/+DemonWolfDevOfficial
+  twitter: https://www.twitter.com/demonwolfdev
 
 #-------------------------------
 # Modified Date
