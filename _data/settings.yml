@@ -34,8 +34,8 @@ hero:
   header: 'DemonWolfDev Community'
   text: "Are you passionate about tech, computers, creativity, and gaming? Grow with our community towards your goals. Join us today!"
 hero-button:
-  title: Join Us!
-  url: '#learn'
+  title: Learn More
+  url: '#about'
 
 #-------------------------------
 # CTA Section

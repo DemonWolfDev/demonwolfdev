@@ -28,7 +28,7 @@
   <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}//assets/images/logos/logo.png" />
   <meta property="og:description" content="{{ site.description }}" />
   <!-- Icon and Meta  -->
-  <meta name="application-name" content="{{ site.name }}" />
+  <meta name="application-name" content="{{ site.title }}" />
   <meta name="msapplication-square70x70logo" content="{{ site.url }}{{ site.baseurl }}/ms-icon-70x70.png" />
   <meta name="msapplication-square150x150logo" content="{{ site.url }}{{ site.baseurl }}/ms-icon-150x150.png" />
   <meta name="msapplication-square310x310logo" content="{{ site.url }}{{ site.baseurl }}/ms-icon-310x310/.png" />
@@ -66,7 +66,7 @@
         m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
     })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', '{{ site.data.settings.google-analytics }}', 'auto');
+    ga('create', '{{ site.data.settings.seo.google-analytics }}', 'auto');
     ga('send', 'pageview');
   </script>
   <!-- End Google Analytics -->
