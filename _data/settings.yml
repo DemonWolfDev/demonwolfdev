@@ -3,9 +3,9 @@
 #-------------------------------
 # Menu Section
 menu:
-  # - {title: Forums, url: 'https://www.demonwolfdev.com/forums'}
+  - {title: Forums, url: 'https://www.demonwolfdev.com/forums'}
   - {title: Discord, url: 'https://discordapp.com/invite/A9x3qEN'}
-  - {title: Donate, url: 'https://www.donorbox.org/demonwolfdev'}
+  - {title: Donate, url: 'https://streamlabs.com/demonwolfdev'}
 
 #-------------------------------
 
@@ -15,7 +15,7 @@ seo:
   twitter-creator: 'https://www.twitter.com/mrdemonwolf'
   twitter-site: 'https://www.twitter.com/demonwolfdev'
   type: 'website'
-  google-analytics: UA-xxxx-1
+  google-analytics: UA-104966812-1
 
 #-------------------------------
 # About Section
@@ -45,15 +45,14 @@ cta:
   text: Its free!
 cta-button:
   title: Join Us!
-  #url: '#join'
   url: 'https://discordapp.com/invite/A9x3qEN'
+
 #-------------------------------
 # Ofter Section
 
 ofter:
-  - {icon: fa-list-alt, name: 'Voice Chat & Private Messages', description: 'Our Discord has members from all ages, gaming backgrounds, people who use different gaming systems, and much more.'}
-  # {icon: fa-comments-o, name: 'Discord Channels & Forums Threads', description: ' We have a voice and private messages so you can chat with other members. You can also use it for in game voice chat, or just for having fun.  Even just hangout with members.'}
-  - {icon: fa-comments-o, name: 'Community forum threads' , description: ' We have a voice and private messages so you can chat with other members. You can also use it for in game voice chat, or just for having fun.  Even just hangout with members.'}
+  - {icon: fa-list-alt, name: 'Discord Voice Chat & Private Messages', description: 'On our discord server you can chat with members from all ages, gaming backgrounds, people who use different gaming systems, and much more.'}
+  - {icon: fa-comments-o, name: 'Community Forum' , description: 'In the community forums you are able to make posts with other members.  Learn more about members and they can learn about you.'}
 
 #-------------------------------
 # Social Icons and URls
@@ -63,6 +62,7 @@ social:
   - {icon: fa-youtube-play, color: 'youtube-color', url: 'https://www.yotube.com/DemonWolfDevOfficial'}
   - {icon: fa-google-plus, color: 'google_plus-color', url: 'http://plus.google.com/+DemonWolfDevOfficial'}
   - {icon: fa-twitter, color: 'twitter-color', url: 'https://www.twitter.com/demonwolfdev'}
+
 social-url:
   twitch: https://www.twitch.tv/demonwolfdev
   youtube: https://www.youtube.com/demonwolfdev
