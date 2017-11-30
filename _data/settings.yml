@@ -2,6 +2,7 @@
 # General Site Settings
 #-------------------------------
 # Menu Section
+
 menu:
   - {title: Forums, url: 'https://www.demonwolfdev.com/forums'}
   - {title: Discord, url: 'https://discordapp.com/invite/A9x3qEN'}
@@ -43,6 +44,7 @@ hero-button:
 cta:
   header: Join Our Community Today!
   text: Its free!
+
 cta-button:
   title: Join Us!
   url: 'https://discordapp.com/invite/A9x3qEN'
