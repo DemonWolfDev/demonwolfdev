@@ -17,8 +17,7 @@ title: "DemonWolfDev"
 email: webmaster@demonwolfdev.com
 description: Are you passionate about tech, computers, creativity, and gaming? Grow with our community towards your goals. Join us today!
 keywords:
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.demonwolfdev.com" # the base hostname & protocol for your site, e.g. http://example.com
+subpath: "" # the subpath of your site, e.g. /blog
 github_username: mrdemonwolf
 encoding: UTF-8
 brand-color: '#00328d'
