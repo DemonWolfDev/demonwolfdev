@@ -4,9 +4,8 @@
 # Menu Section
 
 menu:
-  - {title: Forums, url: 'https://www.demonwolfdev.com/forums'}
   - {title: Discord, url: 'https://discordapp.com/invite/A9x3qEN'}
-  - {title: Donate, url: 'https://streamlabs.com/demonwolfdev'}
+  - {title: Support, url: 'https://streamlabs.com/demonwolfdev'}
 
 #-------------------------------
 
@@ -55,7 +54,7 @@ cta-button:
 
 ofter:
   - {icon: fa-list-alt, name: 'Discord Voice Chat & Private Messages', description: 'On our discord server you can chat with members from all ages, gaming backgrounds, people who use different gaming systems, and much more.'}
-  - {icon: fa-comments-o, name: 'Community Forum' , description: 'In the community forums you are able to make posts with other members.  Learn more about members and they can learn about you.'}
+  - {icon: fa-comments-o, name: '>Discord Text Channels' , description: 'In the community text channels you are able to make posts with other members.  Learn more about members and they can learn about you.'}
 
 #-------------------------------
 # Social Icons and URls
