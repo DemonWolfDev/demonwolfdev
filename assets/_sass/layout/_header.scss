@@ -128,6 +128,31 @@
     }
 }
 
+nav.navbar.shrink {
+    min-height: 35px;
+
+    .navbar-brand {
+        font-size: 25px;
+    }
+
+    a {
+        font-size: 15px;
+        padding-bottom: 10px !important;
+        padding-top: 10px !important;
+    }
+
+    .navbar-toggle {
+        margin: 8px 15px 8px 0;
+        padding: 4px 5px;
+    }
+
+    .navbar-logo>img{
+        height: 39px;
+        padding-top: 3.5px;
+        padding-bottom: 3.5px;
+    }
+}
+
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .nav-dropdown-menu {
         > li > a {
