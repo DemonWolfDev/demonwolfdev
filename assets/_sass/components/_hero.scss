@@ -1,37 +1,3 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the hero component.
 // -----------------------------------------------------------------------------
-.hero {
-    padding-top: 150px !important;
-    padding-bottom: 65px !important;
-    text-align: center;
-    color: white;
-    background: url(../images/hero_bg.png) no-repeat bottom center;
-    background-size: cover;
-    height: 100%;
-
-    .header {
-        font-size: 2.75em;
-    }
-
-    .text {
-        color: #ffffff;
-        font-family: $main-font;
-        font-size: 1.75em;
-    }
-}
-
-.btn.btn-hero {
-    color: $button_background_effect_font;
-    background-color: $button_background_effect;
-    border-radius: 5px;
-    margin: 21px 0 0 0;
-    font-weight: 700;
-    border-color: transparent;
-}
-
-.btn-hero.active.focus, .btn-hero.active:focus, .btn-hero.active:hover, .btn-hero:active.focus, .btn-hero:active:focus, .btn-hero:active:hover, .btn-hero:hover {
-    background: darken($button_background_effect, 6%);
-    color: button_background_effect_font;
-    transition: all 500ms;
-}

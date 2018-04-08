@@ -2,8 +2,10 @@
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
 // Fonts
-$main-font: 'Oswald', sans-serif;
-$second-font: "Times New Roman", Times, serif;
+$main-font: "Work San", sans-serif;
+$second-font: "Lato", sans-serif;
+$legal-font: "Times New Roman", Times, serif;
+
 // Social Icons Color
 $twitter-color: #1da1f2;
 $twitch-color: #6441a5;
@@ -33,3 +35,5 @@ $footer-background: $brand-color-alt-2;
 // Footer Legal
 $footer-color-legal: #000000;
 $footer-color_link-legal: #3D3D3D;
+
+$content_panding: 50px;
