@@ -169,7 +169,6 @@
 
 .navbar {
     margin-bottom: 0px;
-    border-bottom: 1px solid $brand-color-alt;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -180,4 +179,41 @@
 .dropdown-menu > li > a {
     font-family: $main-font;
     font-size: 1.5em;
+}
+
+.navbar-social li > a {
+    padding-right: 8px;
+    padding-left: 8px;
+
+    .social-icon {
+        color: $brand-color-alt;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-social {
+        flex-direction: row !important;
+        justify-content: center;
+        display: flex;
+
+        & li > a {
+            padding-left: 2px;
+            padding-right: 2px;
+
+            .social-icon {
+                margin-right: 9px;
+                margin-left: 9px;
+                padding-top: 7px;
+                width: 40px;
+                height: 40px;
+                font-size: 22px;
+            }
+        }
+    }
+
+    .navbar .navbar-nav {
+        flex-flow: column;
+        display: flex;
+        text-align: center;
+    }
 }

@@ -1,3 +1,54 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the hero component.
 // -----------------------------------------------------------------------------
+.hero {
+    color: #ffff;
+    background: url(../images/hero_bg.png) no-repeat bottom center;
+    background-size: cover;
+    height: 100%;
+    padding-top: $content_panding;
+    padding-bottom: $content_panding;
+
+    .header {
+        color: #ffffff;
+        font-family: $main-font;
+        font-size: 3em;
+        display: inline-block;
+    }
+
+    .text {
+        color: #ffffff;
+        font-family: $main-font;
+        font-size: 1.15em;
+        display: inline-block;
+    }
+
+    .inner-hero {
+        background-color: transparent !important;
+        padding-top: $content_panding;
+        padding-bottom: $content_panding;
+    }
+
+    .button {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .btn-custom {
+        border-radius: 5px;
+        margin: 0 0 0 0;
+        font-weight: 700;
+        color: $hero_button_font;
+        background-color: $hero_button_background;
+        border: 2px solid $hero_button_font;
+        border-radius: 8px;
+        cursor: pointer;
+
+        &:active, &:focus, &:hover {
+            background: darken($hero_button_background_effect, 15%);
+            color: $hero_button_font_effect;
+            border: transparent;
+            transition: all 500ms;
+        }
+    }
+}

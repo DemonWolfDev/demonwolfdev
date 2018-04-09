@@ -2,8 +2,12 @@
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
 footer {
+    background-color: $footer-background;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
     .footer-content {
-        font-size: 1.15em;
+        font-size: 1em;
         color: $footer-color;
         padding: 10px 0;
         margin-bottom: 0;
@@ -18,12 +22,6 @@ footer {
             color: lighten($footer-color_link, 15%);
             text-decoration: none;
         }
-    }
-
-    .copyright {
-        background-color: $footer-background;
-        padding-top: 8px;
-        padding-bottom: 8px;
     }
 }
 

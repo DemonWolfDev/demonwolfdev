@@ -60,10 +60,10 @@ ofter:
 # Social Icons and URls
 
 social:
-  - {icon: fa-twitch, color: 'twitch-color', url: 'https://www.twitch.tv/demonwolfdev'}
-  - {icon: fa-youtube-play, color: 'youtube-color', url: 'https://www.yotube.com/DemonWolfDevOfficial'}
-  - {icon: fa-google-plus, color: 'google_plus-color', url: 'http://plus.google.com/+DemonWolfDevOfficial'}
-  - {icon: fa-twitter, color: 'twitter-color', url: 'https://www.twitter.com/demonwolfdev'}
+  - {icon: fab fa-twitch, color: 'twitch-color twitch-color_border', url: 'https://www.twitch.tv/demonwolfdev'}
+  - {icon: fab fa-youtube, color: 'youtube-color youtube-color_border', url: 'https://www.yotube.com/DemonWolfDevOfficial'}
+  - {icon: fab fa-google-plus-g, color: 'google_plus-color google_plus-color_border', url: 'http://plus.google.com/+DemonWolfDevOfficial'}
+  - {icon: fab fa-twitter, color: 'twitter-color twitter-color_border', url: 'https://www.twitter.com/demonwolfdev'}
 
 #-------------------------------
 # Modified Date

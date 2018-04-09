@@ -12,28 +12,44 @@ $twitch-color: #6441a5;
 $youtube-color: #cd201f;
 $github-color: #333;
 $google-plus-color: #dd4b39;
-$facebook-color:#3b5998;
+$facebook-color: #3b5998;
 $social-icon: #ffffff;
 $social-icon_hover: #d4d4d4;
+
 // Brand Color
 $brand-color: #00328d;
 $brand-color-alt: #352f9d;
 $brand-color-alt-2: #6d66ff;
+
 // Button Colors
 $button_background_effect_font: #fff;
 $button_background_effect: $brand-color-alt;
+
 // Menu Links
-$nav-bgDefault      : #ffffff;
-$nav-bgHighlight    : #ffffff;
-$nav-colDefault     : #060141;
-$nav-colHighlight   : $brand-color-alt;
-$nav-dropdown       : true;
+$nav-bgDefault: #ffffff;
+$nav-bgHighlight: #ffffff;
+$nav-colDefault: #060141;
+$nav-colHighlight: $brand-color-alt;
+$nav-dropdown: true;
+
 // Footer Text
 $footer-color: #ffffff;
 $footer-color_link: #f2f2f2;
 $footer-background: $brand-color-alt-2;
+
 // Footer Legal
 $footer-color-legal: #000000;
 $footer-color_link-legal: #3D3D3D;
+
+// Buttons
+$button_background_font: #00328d;
+$button_background: #ffffff;
+$button_background_effect_font: #ffffff;
+$button_background_effect: #00328d;
+
+$hero_button_font: #ffffff;
+$hero_button_background: transparent;
+$hero_button_background_effect: #352f9d;
+$hero_button_font_effect: #ffffff;
 
 $content_panding: 50px;

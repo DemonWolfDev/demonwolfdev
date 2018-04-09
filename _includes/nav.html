@@ -23,19 +23,19 @@
       </a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="menu">
-      <ul class="nav navbar-nav navbar-right">
+    <div class="collapse navbar-collapse navbar-right" id="menu">
+      <ul class="nav navbar-nav">
         {% for item in site.data.settings.menu %}
         <li>
           <a href="{{ item.url }}">{{ item.title }}</a>
         </li>
         {% endfor %}
       </ul>
-      <ul class="navbar-social navbar-nav nav">
+      <ul class="navbar-social nav navbar-nav">
         {% for item in site.data.settings.social %}
         <li>
           <a href="{{ item.url }}">
-            <i class="fa {{ item.icon }} social-icon {{ item.color }}" aria-hidden="true"></i>
+            <i class="{{ item.icon }} social-icon {{ item.color }}" aria-hidden="true"></i>
           </a>
         </li>{% endfor %}
       </ul>
