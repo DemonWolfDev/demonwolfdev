@@ -30,8 +30,8 @@
     }
 
     .button {
-        padding-top: 8px;
-        padding-bottom: 8px;
+        padding-top: 16px;
+        padding-bottom: 16px;
     }
 
     .btn-custom {
@@ -47,7 +47,7 @@
         &:active, &:focus, &:hover {
             background: darken($hero_button_background_effect, 15%);
             color: $hero_button_font_effect;
-            border: transparent;
+            border: 2px solid transparent;
             transition: all 500ms;
         }
     }

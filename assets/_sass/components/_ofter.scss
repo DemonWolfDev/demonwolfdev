@@ -1,3 +1,22 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the ofter component.
 // -----------------------------------------------------------------------------
+.ofter {
+  .icons {
+    font-size: 48px;
+  }
+  .header {
+    font-size: 1.15em;
+    font-family: $main-font;
+    font-weight: 700;
+  }
+  .description {
+    font-family: $second-font;
+    font-weight: 400;
+    font-size: 1em;
+  }
+  .col-description {
+    padding-left: 0px;
+  }
+
+}
