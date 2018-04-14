@@ -1,0 +1,21 @@
+<!-- Ofter Icons with infomation -->
+<div class="ofter container" id="ofter">
+    <div class="col-md-6">
+        {% for item in site.data.settings.ofter %}
+            <div class="media">
+                <div class="media-left">
+                    <i class="{{ item.icon }} icons" aria-hidden="true"></i>
+                </div>
+                <div class="media-body media-body-center">
+                    <div class="header">{{ item.name }}</div>
+                </div>
+                <div class="col-md-12 col-description">
+                    <div class="description">{{ item.description}}</div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="col-md-4 col-offset-2 pull-right">
+        <iframe src="https://discordapp.com/widget?id=127607669103001600&theme=dark" width="320" height="300" allowtransparency="true" frameborder="0"></iframe>
+    </div>
+</div>
